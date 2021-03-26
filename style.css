@@ -4,4 +4,17 @@ html {
 
 h1 {
     color: darkslateblue;
+    text-align: center;
+}
+
+h2 {
+    color:cornflowerblue;
+}
+
+h3 {
+    color:darkturquoise;
+}
+
+img {
+    box-shadow: dimgray;
 }
