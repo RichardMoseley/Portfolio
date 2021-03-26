@@ -1,5 +1,9 @@
 html {
     font-family: 'Trebuchet MS';
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    display: block;
 }
 
 h1 {
@@ -20,6 +24,12 @@ img {
 }
 
 .newClass {
-    color:rebeccapurple;
-    font-size: larger;
+    color:black;
+    text-align: center;
+    display: block;
+}
+
+#proj1 {
+    text-align: center;
+    color: black;
 }
