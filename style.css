@@ -1,35 +1,30 @@
-html {
-    font-family: 'Trebuchet MS';
-    text-align: center;
-    align-self: center;
-    align-items: center;
-    display: block;
+body {
+    background-color: #f2f2f2;
 }
 
-h1 {
-    color: darkslateblue;
-    text-align: center;
+#navBar {
+    background-color: black;
+    border-radius: .5em;
 }
 
-h2 {
-    color:cornflowerblue;
+#navDrop {
+    background-color: black;
 }
 
-h3 {
-    color:darkturquoise;
+#dropButton {
+    color: grey;
+    font-weight: bolder;
+    font-size: 1.1em;
 }
 
-img {
-    box-shadow: 2px 2px 1px dimgray;
+#navbarDropdown {
+    color: gray;
 }
 
-.newClass {
-    color:black;
-    text-align: center;
-    display: block;
+.headText {
+    color: white;
 }
 
-#proj1 {
-    text-align: center;
-    color: black;
+.navbar-toggler-icon {
+    align-self: end;
 }
