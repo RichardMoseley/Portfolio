@@ -11,14 +11,53 @@
 </head>
 
 <body>
-    <a class='headName' href='./index.html'>
-        <h1 class='headName'>Richard Moseley</h1>
-    </a>
-    <nav class='menu'>
-        <a href="./photos.html">Photos</a>
-        <a href='./links.html'>Social Media</a>
-        <a href='./portfolio.html'>Portfolio</a>
-    </nav>
+    <div class='header'>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div id='navBar' class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><span class='headText'>Richard Moseley</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span id='dropButton'>+</span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
+                                style='background-color: rgb(212, 212, 212);'>
+                                <li><a class="dropdown-item" href="./Richard-Moseley.pdf"
+                                        target='_blank'><span>Resume</span></a>
+                                </li>
+                                <li><a class="dropdown-item" href="./photos.html"><span>Photos</span></a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./links.html"><span>Social
+                                            Media</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html"><span
+                                    class='headText'>Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./portfolio.html"><span class='headText'>Portfolio</span></a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
     <a href='https://www.facebook.com/profile.php?id=100008940844064' target='media'><img class='mediaLink'
             src='./images/Facebook-Logo.svg' alt='Facebook'></a>
     <br>

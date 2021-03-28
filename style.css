@@ -1,30 +1,7 @@
-body {
-    background-color: #f2f2f2;
-}
-
-#navBar {
-    background-color: black;
-    border-radius: .5em;
-}
-
-#navDrop {
-    background-color: black;
-}
-
-#dropButton {
-    color: grey;
-    font-weight: bolder;
-    font-size: 1.1em;
-}
-
-#navbarDropdown {
-    color: gray;
-}
-
-.headText {
-    color: white;
-}
-
-.navbar-toggler-icon {
-    align-self: end;
+html {
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
 }
